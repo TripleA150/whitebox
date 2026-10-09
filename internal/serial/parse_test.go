@@ -28,7 +28,7 @@ const (
 
 	URI_TROJAN_RAW_REALITY     string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=tcp&security=reality&pbk=rh_ToroMlTyQIYIQcH41RmIiaHr5FKtnByRUYA82i3o&fp=chrome&sni=google.com&sid=9675d1&spx=%2F#42j1zdc0"
 	URI_TROJAN_RAW_TLS         string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=tcp&security=tls&fp=chrome&sni=example.com&spx=%2F#42j1zdc0"
-	URI_TROJAN_MKCP            string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=kcp&headerType=dtls&seed=8omUFe2xgl&security=none#42j1zdc0"
+	URI_TROJAN_MKCP            string = "trojan://Vtvxlvq2ku@10.0.0.1:443?type=kcp&headerType=dtls&seed=8omUFe2xgl&security=none#42j1zdc0"
 	URI_TROJAN_WEBSOCKET_TLS   string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=ws&path=%2F&host=&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&ech=AF3%2BDQBZAAAgACAGdEfh%2FUGI%2By7XzHs1FPgnkmxw0Ryv09Jm%2B19RCBMvEgAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAApnb29nbGUuY29tAAA%3D&sni=google.com#42j1zdc0"
 	URI_TROJAN_GRPC_TLS        string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=grpc&serviceName=sn&authority=au&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&ech=AF3%2BDQBZAAAgACAGdEfh%2FUGI%2By7XzHs1FPgnkmxw0Ryv09Jm%2B19RCBMvEgAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAApnb29nbGUuY29tAAA%3D&sni=google.com#42j1zdc0"
 	URI_TROJAN_HTTPUPGRADE_TLS string = "trojan://Vtvxlvq2ku@1.2.3.4:443?type=httpupgrade&path=%2Fp&host=h&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&ech=AF3%2BDQBZAAAgACAGdEfh%2FUGI%2By7XzHs1FPgnkmxw0Ryv09Jm%2B19RCBMvEgAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAApnb29nbGUuY29tAAA%3D&sni=google.com#42j1zdc0"
